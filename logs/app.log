@@ -1,0 +1,42 @@
+2020-10-20 16:04:57,765 INFO com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] Starting AdmageBatchApplication on entropy with PID 32679 (/home/entropy/java-workspace/admage-batch/target/classes started by entropy in /home/entropy/java-workspace/admage-batch)
+2020-10-20 16:04:57,768 DEBUG com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-20 16:04:57,769 INFO com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] The following profiles are active: dev
+2020-10-20 16:04:57,822 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-20 16:04:58,224 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-20 16:04:58,244 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13ms. Found 0 JPA repository interfaces.
+2020-10-20 16:04:58,613 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-20 16:04:58,818 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-10-20 16:04:58,842 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-10-20 16:04:58,842 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-10-20 16:04:58,850 INFO com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] Started AdmageBatchApplication in 1.542 seconds (JVM running for 2.307)
+2020-10-20 16:04:59,108 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-20 16:05:16,760 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-20 16:05:16,762 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-20 16:05:20,962 INFO com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] Starting AdmageBatchApplication on entropy with PID 365 (/home/entropy/java-workspace/admage-batch/target/classes started by entropy in /home/entropy/java-workspace/admage-batch)
+2020-10-20 16:05:20,964 DEBUG com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-20 16:05:20,965 INFO com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] The following profiles are active: dev
+2020-10-20 16:05:21,041 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-20 16:05:21,492 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-20 16:05:21,514 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2020-10-20 16:05:21,847 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-20 16:05:22,046 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-10-20 16:05:22,061 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-10-20 16:05:22,062 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-10-20 16:05:22,075 INFO com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] Started AdmageBatchApplication in 1.482 seconds (JVM running for 2.151)
+2020-10-20 16:05:22,402 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-20 16:06:22,413 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-20 16:06:22,418 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-20 16:06:59,717 INFO com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] Starting AdmageBatchApplication on entropy with PID 641 (/home/entropy/java-workspace/admage-batch/target/classes started by entropy in /home/entropy/java-workspace/admage-batch)
+2020-10-20 16:06:59,719 DEBUG com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-10-20 16:06:59,719 INFO com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] The following profiles are active: dev
+2020-10-20 16:06:59,760 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-20 16:07:00,158 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-20 16:07:00,176 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11ms. Found 0 JPA repository interfaces.
+2020-10-20 16:07:00,517 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-20 16:07:00,727 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-10-20 16:07:00,741 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2020-10-20 16:07:00,742 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2020-10-20 16:07:00,750 INFO com.dimageshare.admage.batch.AdmageBatchApplication [restartedMain] Started AdmageBatchApplication in 1.463 seconds (JVM running for 2.214)
+2020-10-20 16:07:01,012 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-20 16:08:01,025 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-20 16:08:01,030 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'

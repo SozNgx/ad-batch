@@ -1,0 +1,11 @@
+#application.yml
+---
+spring.profiles: dev
+spring.profiles.include: dev
+---
+spring.profiles: staging
+spring.profiles.include: staging
+---
+spring.profiles: prod
+spring.profiles.include: prod
+---

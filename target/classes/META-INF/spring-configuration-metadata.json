@@ -1,0 +1,1201 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource-dev",
+      "type": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.hikari",
+      "type": "com.dimageshare.admage.batch.configuration.dev.HikariDetailDBProperty",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariDetailDBProperty"
+    },
+    {
+      "name": "spring.datasource-prod",
+      "type": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.hikari",
+      "type": "com.dimageshare.admage.batch.configuration.prod.HikariDetailDBProperty",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariDetailDBProperty"
+    },
+    {
+      "name": "spring.datasource-staging",
+      "type": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.hikari",
+      "type": "com.dimageshare.admage.batch.configuration.staging.HikariDetailDBProperty",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariDetailDBProperty"
+    },
+    {
+      "name": "spring.second-datasource-dev",
+      "type": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.hikari",
+      "type": "com.dimageshare.admage.batch.configuration.dev.HikariSummaryDBProperty",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariSummaryDBProperty"
+    },
+    {
+      "name": "spring.second-datasource-prod",
+      "type": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.hikari",
+      "type": "com.dimageshare.admage.batch.configuration.prod.HikariSummaryDBProperty",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariSummaryDBProperty"
+    },
+    {
+      "name": "spring.second-datasource-staging",
+      "type": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.hikari",
+      "type": "com.dimageshare.admage.batch.configuration.staging.HikariSummaryDBProperty",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariSummaryDBProperty"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource-dev.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.exception-override-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.hikari.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-dev.hikari.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-dev.hikari.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-dev.hikari.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-dev.hikari.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariDetailDBProperty"
+    },
+    {
+      "name": "spring.datasource-dev.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.password",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.username",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-dev.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.exception-override-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.hikari.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-prod.hikari.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-prod.hikari.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-prod.hikari.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-prod.hikari.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariDetailDBProperty"
+    },
+    {
+      "name": "spring.datasource-prod.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.password",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.username",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-prod.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.exception-override-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.hikari.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-staging.hikari.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-staging.hikari.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-staging.hikari.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariDetailDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.datasource-staging.hikari.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariDetailDBProperty"
+    },
+    {
+      "name": "spring.datasource-staging.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.password",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.username",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.datasource-staging.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.DetailDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.exception-override-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.hikari.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-dev.hikari.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-dev.hikari.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-dev.hikari.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-dev.hikari.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.HikariSummaryDBProperty"
+    },
+    {
+      "name": "spring.second-datasource-dev.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.password",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.username",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-dev.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.dev.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.exception-override-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.hikari.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-prod.hikari.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-prod.hikari.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-prod.hikari.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-prod.hikari.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.HikariSummaryDBProperty"
+    },
+    {
+      "name": "spring.second-datasource-prod.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.password",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.username",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-prod.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.prod.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.exception-override-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.hikari.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-staging.hikari.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-staging.hikari.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-staging.hikari.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariSummaryDBProperty",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.second-datasource-staging.hikari.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.HikariSummaryDBProperty"
+    },
+    {
+      "name": "spring.second-datasource-staging.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.password",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.username",
+      "type": "java.lang.String",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    },
+    {
+      "name": "spring.second-datasource-staging.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.dimageshare.admage.batch.configuration.staging.SummaryDBConfiguration"
+    }
+  ],
+  "hints": []
+}
